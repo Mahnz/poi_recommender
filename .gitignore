@@ -1,0 +1,7 @@
+venv
+.venv
+.vscode
+.idea
+Dataset
+images
+additional_data
