@@ -27,6 +27,14 @@ To set up the project locally, follow these steps:
 
 
 ## Usage
+### Retrieving Venue Images
+To retrieve venue images from Google Street View:
+1. Set up your API credentials in the environment variables `STREET_VIEW_KEY` and `STREET_VIEW_SECRET`.
+2. Run the image retrieval script:
+   ```bash
+   python preprocessing/retrieve_venue_images.py
+   ```
+
 ### Generating Descriptions
 To generate descriptions for venue images:
 1. Place the images in the `images/` directory.
@@ -41,14 +49,6 @@ To encode the generated descriptions:
 2. Run the encoding script:
    ```bash
    python preprocessing/description_encoder.py
-   ```
-
-### Retrieving Venue Images
-To retrieve venue images from Google Street View:
-1. Set up your API credentials in the environment variables `STREET_VIEW_KEY` and `STREET_VIEW_SECRET`.
-2. Run the image retrieval script:
-   ```bash
-   python preprocessing/retrieve_venue_images.py
    ```
 
 
